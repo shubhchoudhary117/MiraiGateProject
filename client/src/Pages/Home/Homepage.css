@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --navbar-color: #212529;
+    --white-color: #fff;
+    --montserrate-700-font: 'Montserrat', sans-serif;
+    --montserrate-400-font: 'Montserrat', sans-serif;
+    --light-text-color: #6f6b80;
+    --midium-black: #5d616a;
+    --background-color: #f6f8f9;
+    --input-field-border: #ced4da;
+    --back-color: #36517c;
+}
+
+.home-section {
+    width: 100%;
+    height: 93vh;
+}
+.home-section .background-section {
+    width: 100%;
+    height: 93vh;
+    background-color: var(--back-color);
+    padding-top: 60px;
+}
+
+.home-section .background-section .bk-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.home-section .background-section .bk-container .bk-content .bk-heading {
+    font-size: 2.9rem;
+    font-family: var(--montserrate-700-font);
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.home-section .background-section .bk-container .bk-content .bk-text {
+    padding-top: 10px;
+    font-family: var(--montserrate-400-font);
+    color: var(--white-color);
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.home-section .background-section .bk-container .bk-content button {
+    width: 130px;
+    height: 55px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-family: var(--montserrate-400-font);
+    font-weight: 500;
+    cursor: pointer;
+}
+

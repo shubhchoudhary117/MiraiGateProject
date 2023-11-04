@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --navbar-color: #212529;
+    --white-color: #fff;
+    --montserrate-700-font: 'Montserrat', sans-serif;
+    --montserrate-400-font: 'Montserrat', sans-serif;
+    --light-text-color: #6f6b80;
+    --midium-black: #5d616a;
+    --background-color: #f6f8f9;
+    --input-field-border: #ced4da;
+    --back-color: #36517c;
+}
+
+ header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--back-color);
+    z-index: 111;
+    position: absolute;
+}
+
+header nav {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+header nav .buttons {
+    display: flex;
+}
+
+header nav .buttons button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border: 1px solid var(--white-color);
+    font-family: var(--montserrate-400-font);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    margin-right: 12px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header nav .buttons button .link {
+    text-decoration: none;
+    color: #fff;
+}
+ header nav .buttons .disabled{
+    background-color: #4a699b;
+    cursor: not-allowed;
+}
+
+/* menu links */
+.menu-links{
+    margin-left: 50px;
+}
+.menu-links ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu-links ul li{
+padding: 12px 20px;
+}
+
+.menu-links ul li .link{
+    font-size: 1rem;
+    font-family: var(--montserrate-700-font);
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+
+
+/* desing the alert */
+header .Alert{
+    width: 400px;
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+header .Alert .alert{
+    width: 100%;
+    height: 100%;
+    font-family: var(--montserrate-400-font);
+    font-size: 1.2rem;
+}

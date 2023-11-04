@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --white-color: #fff;
+    --montserrate-700-font: 'Montserrat', sans-serif;
+    --montserrate-400-font: 'Montserrat', sans-serif;
+    --light-text-color: #6f6b80;
+    --light-green: #f7fcfa;
+    --midium-black: #5d616a;
+    --background-color: #f6f8f9;
+    --input-field-border: #ced4da;
+    --comman-color:#36517c;
+}
+
+.login-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.login-section .login-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+}
+
+.login-section .login-container .login-banner {
+    width: 400px;
+    height: 400px;
+
+}
+
+.login-section .login-container .login-banner img {
+    width: 100%;
+    height: 100%;
+    margin-top: 130px;
+    margin-right: 100px;
+}
+
+.login-section .login-container .login-box {
+    width: 500px;
+    padding: 20px;
+    padding-top: 0px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.login-section .login-container .login-box .login-heading {
+    font-size: 1.8rem;
+    font-family: var(--montserrate-700-font);
+    color: var(--light-text-color);
+    text-transform: capitalize;
+    color: var(--comman-color);
+    margin-bottom: 22px;
+}
+
+.login-section .login-container .login-box .login-form {
+    width: 100%;
+}
+
+.login-section .login-container .login-box .login-form .form-group {
+    width: 90%;
+    height: 55px;
+    margin-bottom: 40px;
+}
+
+.login-section .login-container .login-box .login-form .form-group input {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid var(--light-text-color);
+    border-radius: 3px;
+    outline: none;
+    padding-left: 12px;
+    color: var(--midium-black);
+    font-size: 1.1rem;
+    color: var(--light-text-color);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.login-section .login-container .login-box .login-form .form-group input:focus{
+    border: none;
+    outline: 1px solid var(--comman-color);
+}
+.login-section .login-container .login-box .login-form .form-group .validation{
+    margin-top: 0px;
+    font-family: var(--montserrate-400-font);
+    color: #E91100;
+    font-size: 0.9rem;
+}
+
+.login-section .login-container .login-box .login-form .form-group input::placeholder{
+    font-size: 1.1rem;
+    font-family: var(--montserrate-400-font);
+    text-transform: capitalize;
+    color: var(--light-text-color);
+}
+.login-section .login-container .login-box .login-form .form-group:nth-child(2){
+    margin-bottom: 30px;
+}
+
+.login-section .login-container .login-box .login-form .forgot-password .link{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-family: var(--montserrate-400-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--comman-color);
+   
+}
+
+.login-section .login-container .login-box .login-form .account-mssg{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-family: var(--montserrate-400-font);
+    color: var(--midium-black);
+    text-transform: capitalize;
+
+}
+
+.login-section .login-container .login-box .login-form .account-mssg .link{
+    font-size: 1.1rem;
+    font-family: var(--montserrate-400-font);
+    color: var(--comman-color);
+    cursor: pointer;
+}
+
+.login-section .login-container .login-box .login-form .login-btn {
+    margin-top: 20px;
+}
+.login-section .login-container .login-box .login-form .login-btn button{
+    width: 130px;
+    height: 55px;
+    background-color: var(--comman-color);
+    border: none;
+    color: #fff;
+    font-family: var(--montserrate-700-font);
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.login-section .login-container .login-box .login-form .login-btn .disabled{
+    cursor: not-allowed;
+    background-color: #5d7baa;
+}
+
+/* desing the alert */
+.login-section .Alert{
+    width: 50%;
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+}
+.login-section .Alert .alert{
+    width: 100%;
+    height: 100%;
+    font-family: var(--montserrate-400-font);
+    font-size: 1.2rem;
+}
